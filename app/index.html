@@ -13,13 +13,12 @@
     <link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
-  <div class="content">
-    <h1>Under Construction...</h1>
-    <p>
-     Using Ember JS and Flickr API. Displaying my photos from a playlist in my Flickr account. Most of the photos will be of my dog Ammo, He's a Vizsla.  So you should <strong>Check back soon! </strong>It will be awesome...
-    </p>
-    <img src="/media/ammo.jpg" alt="Caribou">
-  </div>
+<div id="photos">
+  <p class="error">
+    There was an error accessing Flickr. Please try again later.
+    <img src="/media/ammo.jpg" alt="Ammo">
+  </p>
+</div>
 
   <!-- @if GULP_ENVIRONMENT='development' -->
   <script type="text/javascript" src="/scripts/vendor.js"></script>
